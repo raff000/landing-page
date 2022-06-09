@@ -73,7 +73,7 @@ body {
 
 .hero-image {
   border: 1px white solid;
-  padding: 75px 10px;
+  padding: 95px 10px;
   background-color: darkgray;
   width: 700px;
   text-align: center;
@@ -87,4 +87,45 @@ body {
   padding: 10px 30px;
   font-weight: bold;
   border-radius: 5px;
+}
+
+.content {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.content-header {
+  color: #1f2937;
+  font-size: 34px;
+  font-weight: 900;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.content-titles {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  color: #1f2937;  
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 160px;
+}
+
+.title .image {
+  width: 140px;
+  height: 120px;
+  border-radius: 6px;
+  border: 3px solid #3882f6;
+}
+
+.title .text {
+  font-size: 18px;
+  text-align: center;
+  padding-top: 10px;
+
 }
