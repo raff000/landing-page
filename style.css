@@ -9,14 +9,12 @@ body {
   margin: 0px;
 }
 
-.header,
 .hero,
 .content,
 .quote,
 .signup,
 .copyright {
-  padding-left: 200px;
-  padding-right: 120px;
+  padding: 70px 120px 100px 200px;
 }
 
 .header {
@@ -25,7 +23,7 @@ body {
   flex-direction: row;
   justify-content:space-between;
   align-items: center;
-  padding-top: 4px;
+  padding: 4px 120px 20px 200px
 }
 
 .logo {
@@ -50,7 +48,6 @@ body {
   color: #f9faf8;
   display: flex;
   justify-content: space-between;
-  padding-top: 70px;
   padding-bottom: 100px;
 }
 
@@ -127,5 +124,59 @@ body {
   font-size: 18px;
   text-align: center;
   padding-top: 10px;
+}
 
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote .text {
+  font-size: 36px;
+  font-weight:100px;
+  font-style: italic;
+  color: #1f2937
+}
+
+.quote .author {
+  padding-right: 60px;
+  text-align: right;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.signup {
+  border: 3px solid #3882f6;
+  border-radius: 5px;
+  background-color: #3882f6;
+  margin: 70px 120px 100px 200px;
+  padding: 10px;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.signup span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.signup button {
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  color: #f9faf8; 
+  padding: 10px 30px;
+  font-weight: bold;
+  border-radius: 5px;
+  height: fit-content;
+}
+
+.copyright {
+  background-color: #1f2937;
+  align-items: center;
+  padding: 20px 120px 20px 200px;
+  color: #f9faf8;
+  text-align: center;
 }
