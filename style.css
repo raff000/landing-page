@@ -9,13 +9,13 @@ body {
   margin: 0px;
 }
 
-/*
 .header,
 .hero,
 .content,
 .quote,
-.signup {
-  padding: 0px 100px;
+.signup,
+.copyright {
+  padding: 0px 200px;
 }
 
 .header {
@@ -24,6 +24,7 @@ body {
   flex-direction: row;
   justify-content:space-between;
   align-items: center;
+  padding-top: 16px;
 }
 
 .logo {
@@ -40,9 +41,10 @@ body {
 
 .navigation li {
   display: inline-block;
-  padding: 0px 15px;
+  padding: 0px 10px;
 }
 
+/*
 .hero {
   background-color: #1f2937;
   color: #f9faf8;
