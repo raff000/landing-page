@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-
 body {
   font-family: Roboto, 'Trebuchet MS', sans-serif;
   display: flex;
@@ -64,7 +63,8 @@ h1 {
   font-weight: 900;
 }
 
-.hero-paragraph {
+.hero p {
+  margin: 0px;
   padding: 0px 60px 0px 0px;
   font-size: 18px;
   color: #e5e7eb;
