@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+
 body {
   font-family: Roboto, 'Trebuchet MS', sans-serif;
   display: flex;
@@ -17,7 +18,7 @@ body {
   padding: 70px 120px 100px 200px;
 }
 
-.header {
+header {
   background-color: #1f2937;
   display: flex;
   flex-direction: row;
@@ -70,10 +71,12 @@ body {
 
 .hero-image {
   border: 1px white solid;
-  padding: 95px 10px;
   background-color: darkgray;
   width: 700px;
   text-align: center;
+  padding: 100px 10px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .hero button{
@@ -148,14 +151,12 @@ body {
   border: 3px solid #3882f6;
   border-radius: 5px;
   background-color: #3882f6;
-  margin: 70px 120px 100px 200px;
+  margin: 70px 120px 80px 200px;
   padding: 10px;
   color: #f9faf8;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-grow: 0;
-  flex-shrink: 0;
+  justify-content: space-around;
+  align-items: center;  
 }
 
 .signup span {
@@ -173,7 +174,7 @@ body {
   height: fit-content;
 }
 
-.copyright {
+footer {
   background-color: #1f2937;
   align-items: center;
   padding: 20px 120px 20px 200px;
